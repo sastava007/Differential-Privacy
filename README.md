@@ -19,6 +19,7 @@ The problem of statistical disclosure control revealing accurate statistics abou
 The purpose of this demo is to showcase the utility of ​[OpenDP](http://opendp.io/)​ differential privacy framework by making statistical queries to data with and without privacy-preserving mechanisms. As we compare query results side-by-side, we show that conclusions about the data are similar in both settings: without a privacy-preserving mechanism, and with differential privacy mechanism.
 		
 **Data Set & Overview of each Attribute** 
+
 The mental health in tech survey data set is released by ​ OSMI​ which consists of 27 questions, answered by 1,259 volunteers. The data used in the analysis were preprocessed i.e the original age, gender, and country variables were mapped into categories for the analysis.
 
 ● `Age`​ : 21-30yo (0), 31-40yo (1), 41-50yo (2), 51-60yo (3), 60yo+ (4).
