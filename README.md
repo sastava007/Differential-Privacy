@@ -1,4 +1,5 @@
 
+
 # Differential Privacy
 Differential Privacy is one of the most innovative methods of cyber security that works with aggregated user data to extract the information while keeping the data of individual users entirely private by introducing randomness into the process of data retrieval.
 
@@ -10,7 +11,7 @@ Let's consider a simple use case where we’re curating (or managing) a sensitiv
 The problem of statistical disclosure control revealing accurate statistics about a population while preserving the privacy of individuals has a venerable history. Netflix​ in 2006, announced a [challenge](https://www.diva-portal.org/smash/get/diva2:1113852/FULLTEXT01.pdf) for improving their recommendation algorithm by releasing 100 million anonymized movie ratings. Although the data sets were constructed to preserve customer privacy, still two researchers from the UT Texas, Austin were able to identify individual users by matching the data sets with film ratings on the IMDb.
 
 <p align="center">
-<img src="https://miro.medium.com/max/400/1*IVd-Xygy7BgYqubqoQcWBg.gif" height="340px" width="500px">
+<img src="https://miro.medium.com/max/400/1*IVd-Xygy7BgYqubqoQcWBg.gif" height="310px" width="480px">
 </p>
 
 
@@ -112,6 +113,15 @@ Upon executing the code in the attached Jupyter notebook the result I got are as
     Estimated POI Income: 6179.4427122677835
     True POI Income: 6000.0
 
+## Installation Guide
+
+ - Fork & Clone this repository, please star too. 
+ - Enter the respective folder, and run `python3 -m venv venv` and `. venv/bin/activate`
+ - Install all the dependencies `pip install -r requirements.txt`
+ - If you're running locally `pip install jupyterlab`
+ - Launch locally`jupyter-lab`
+
+ 
 
 **Note**: I've worked upon this project as a part of my junior year Information System Security coursework at the Indian Institute of Information Technology(IIIT), Gwalior in the supervision of Dr. Debanjan Sadhya.
 
